@@ -5,9 +5,9 @@ ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
-
+#https://dl.ui.com/unifi/5.12.66-2a7dc90946/unifi_sysvinit_all.deb
 # package versions
-ARG UNIFI_VER="5.12.42-1e9446c323"
+ARG UNIFI_VER="5.12.66-2a7dc90946"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
