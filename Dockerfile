@@ -23,6 +23,7 @@ RUN \
 	binutils \
 	jsvc \
 	mongodb-org-server \
+	logrotate \
 	openjdk-8-jre-headless \
 	wget && \
  echo "**** install unifi ****" && \
